@@ -1,6 +1,6 @@
 Feature: US1001_amazon arama
 
-
+  @wip
   Scenario: TC01_Amazon Arama Yapma
 
 

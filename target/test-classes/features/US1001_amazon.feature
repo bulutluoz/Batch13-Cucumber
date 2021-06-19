@@ -1,6 +1,6 @@
 Feature: US1001_amazon arama
 
-
+  @wip
   Scenario: TC01_Amazon Arama Yapma
 
 
@@ -15,4 +15,5 @@ Feature: US1001_amazon arama
     Given kullanici amazon sayfasina gider
     And flower icin arama yapar
     Then sonuclarin flower icerdigini test eder
+    Then sayfayi kapatir
 
