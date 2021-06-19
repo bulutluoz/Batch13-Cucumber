@@ -7,11 +7,11 @@ import utilities.Driver;
 
 public class AmazonPage {
 
-    AmazonPage(){
+    public AmazonPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(id = "nav-search-bar-form")
+    @FindBy(id = "twotabsearchtextbox")
     public WebElement searchBox;
 
     @FindBy(xpath = "//div[@class='a-section a-spacing-small a-spacing-top-small']")
