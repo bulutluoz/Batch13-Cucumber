@@ -1,10 +1,11 @@
+@tip
 Feature: US1001_amazon arama
 
-  @wip
+
   Scenario: TC01_Amazon Arama Yapma
 
 
-    Given kullanici amazon sayfasina gider
+    When kullanici amazon sayfasina gider
     And iPhone icin arama yapar
     Then sonuclarin iPhone icerdigini test eder
 
