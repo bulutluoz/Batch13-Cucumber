@@ -6,6 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+
         // 1- bu notasyonun gorevi feature dosyalarim ile stepdefinition dosyalarini birlestirmek
         features="src/test/resources/features",
         glue="stepdefinitions",
@@ -23,8 +24,6 @@ import org.junit.runner.RunWith;
         dryRun=false
         // 3-
 )
-
-
 public class runner {
 
 }
