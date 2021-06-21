@@ -2,6 +2,7 @@ package stepdefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import io.cucumber.java.tr.Ama;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
@@ -58,5 +59,16 @@ public class AmazonStepDefinitions {
     @Then("sayfayi kapatir")
     public void sayfayiKapatir() {
         Driver.closeDriver();
+    }
+
+
+    @When("{string} icin arama yapar")
+    public void icin_arama_yapar(String arananKelime) {
+       amazonPage.searchBox.sendKeys(arananKelime + Keys.ENTER);
+    }
+
+    @Then("sonuclarin {string} icerdigini test eder")
+    public void sonuclarin_icerdigini_test_eder(String arananKelime) {
+        Assert.assertTrue(amazonPage.sonucYazisiElementi.getText().contains(arananKelime));
     }
 }
