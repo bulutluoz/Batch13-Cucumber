@@ -1,5 +1,5 @@
 Feature: US1009_Koala Resort Negative Test Coklu
-  @dip
+
   Scenario Outline: TC13_kullanici farkli gecersiz bilgilerle giris yapamaz
 
 

@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
         // or dedigimde yazilan taglardan herhangi birine veya daha fazlasina sahip olanlar calisir
         // eger tum test case'leri calistirmak isterseniz tag'i yorum haline getirmeniz yeterli olur
 
-        dryRun=false
+        dryRun=true
         // true oldugunda test case'leri calistirmayi denemeden sadece eksik olan step'leri bana verir
         // false oldugunda test case'leri calistirmayi dener eksik step' bulursa onu rapor eder
 
