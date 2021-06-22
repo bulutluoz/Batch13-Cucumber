@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.KoalaResortPage;
@@ -31,4 +32,18 @@ public class KoalaResortStepDefinitions {
 
     }
 
+    @Then("sayfaya giris yapamadigini kontrol eder")
+    public void sayfaya_giris_yapamadigini_kontrol_eder() {
+        Assert.assertTrue(koalaResortPage.girilemediYazisi.isDisplayed());
+    }
+
+    @And("kullanici ismi olarak {string} girer")
+    public void kullaniciIsmiOlarakGirer(String userName) {
+        koalaResortPage.userTextBox.sendKeys(ConfigReader.getProperty(userName));
+    }
+
+    @And("kullanici sifresi olarak {string} girer")
+    public void kullaniciSifresiOlarakGirer(String password) {
+        koalaResortPage.passwordTextBox.sendKeys(ConfigReader.getProperty(password));
+    }
 }

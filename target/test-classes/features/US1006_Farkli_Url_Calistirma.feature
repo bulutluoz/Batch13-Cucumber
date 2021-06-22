@@ -1,6 +1,6 @@
 Feature: US_Farkli Url Calistirma
 
-  @rapor
+  @wip
   Scenario Outline:
 
     Given kullanici "<sayfaUrl>" sayfasina gider
