@@ -1,4 +1,4 @@
-@wip
+
 Feature: US1004_Amazon Parameterized
 
   Background: Amazon sayfasina git

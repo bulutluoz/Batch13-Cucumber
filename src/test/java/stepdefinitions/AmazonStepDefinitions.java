@@ -71,4 +71,9 @@ public class AmazonStepDefinitions {
     public void sonuclarin_icerdigini_test_eder(String arananKelime) {
         Assert.assertTrue(amazonPage.sonucYazisiElementi.getText().contains(arananKelime));
     }
+
+    @Given("kullanici {string} sayfasina gider")
+    public void kullaniciSayfasinaGider(String sayfaUrl) {
+        Driver.getDriver().get(ConfigReader.getProperty(sayfaUrl));
+    }
 }

@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-
+        plugin={"html:target\\cucumber-raporlar.html"},
         // 1- bu notasyonun gorevi feature dosyalarim ile stepdefinition dosyalarini birlestirmek
         features="src/test/resources/features",
         glue="stepdefinitions",
