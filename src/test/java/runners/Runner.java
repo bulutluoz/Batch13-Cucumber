@@ -6,7 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin={"html:target\\cucumber-raporlar.html"},
+        plugin={"html:target\\cucumber-raporlar.html",
+                "json:target/json-reports/cucumber.json",
+                "junit:target/xml-report/cucumber.xml"},
         // 1- bu notasyonun gorevi feature dosyalarim ile stepdefinition dosyalarini birlestirmek
         features="src/test/resources/features",
         glue="stepdefinitions",
@@ -14,7 +16,7 @@ import org.junit.runner.RunWith;
         // bu iki paket altinda kactane class olursa olsun,
         // herhangi bir class'da yazilan her adim diger class'lardaki adimlarla uyusursa yeni adim olusturmaya gerek kalmaz
 
-        tags="@dip", // work in progress
+        tags="@wip", // work in progress
         // 2-  @ testNG'degi group gibi calisir
         // eger sadece 1 Feature veya 1 Scenario calistiracaksak, gidip feature dosyasindan calistirabiliriz
         // birden fazla Feature veya Scenario calistirmak istedigimizde
@@ -24,11 +26,11 @@ import org.junit.runner.RunWith;
         // or dedigimde yazilan taglardan herhangi birine veya daha fazlasina sahip olanlar calisir
         // eger tum test case'leri calistirmak isterseniz tag'i yorum haline getirmeniz yeterli olur
 
-        dryRun=true
+        dryRun=false
         // true oldugunda test case'leri calistirmayi denemeden sadece eksik olan step'leri bana verir
         // false oldugunda test case'leri calistirmayi dener eksik step' bulursa onu rapor eder
 
 )
-public class runner {
+public class Runner {
 
 }

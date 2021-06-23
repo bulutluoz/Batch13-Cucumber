@@ -1,4 +1,4 @@
-@tip
+
 Feature: US1001_amazon arama
 
 

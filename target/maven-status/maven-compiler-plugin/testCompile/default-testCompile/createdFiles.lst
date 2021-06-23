@@ -1,0 +1,11 @@
+pages\AmazonPage.class
+stepdefinitions\EditorDataTableStepDefinitions.class
+runners\TestRunner.class
+stepdefinitions\AmazonStepDefinitions.class
+stepdefinitions\KoalaResortStepDefinitions.class
+utilities\Driver.class
+pages\YandexPage.class
+pages\KoalaResortPage.class
+runners\TestRunner2.class
+utilities\ConfigReader.class
+stepdefinitions\YandexStepDefinitions.class
