@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="US1002_Amazon Background Kullanma" time="54.598" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="US1005_Amazon Scenario Outline" time="73.136" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,7 +61,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="TC02_IPhone arama testi" classname="US1002_Amazon Background Kullanma" time="18.378"/>
-  <testcase name="TC03_Tea pot arama testi" classname="US1002_Amazon Background Kullanma" time="14.652"/>
-  <testcase name="TC04_Flower arama testi" classname="US1002_Amazon Background Kullanma" time="21.565"/>
+  <testcase name="TC10_Amazon Coklu Arama #1" classname="US1005_Amazon Scenario Outline" time="17.959"/>
+  <testcase name="TC10_Amazon Coklu Arama #2" classname="US1005_Amazon Scenario Outline" time="12.4"/>
+  <testcase name="TC10_Amazon Coklu Arama #3" classname="US1005_Amazon Scenario Outline" time="9.407"/>
+  <testcase name="TC10_Amazon Coklu Arama #4" classname="US1005_Amazon Scenario Outline" time="7.595"/>
+  <testcase name="TC10_Amazon Coklu Arama #5" classname="US1005_Amazon Scenario Outline" time="8.518"/>
+  <testcase name="TC10_Amazon Coklu Arama #6" classname="US1005_Amazon Scenario Outline" time="8.071"/>
+  <testcase name="TC10_Amazon Coklu Arama #7" classname="US1005_Amazon Scenario Outline" time="9.185"/>
 </testsuite>
