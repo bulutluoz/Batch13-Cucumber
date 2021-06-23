@@ -1,5 +1,5 @@
 Feature: US1005_Amazon Scenario Outline
-
+  @rapor1
   Scenario Outline: TC10_Amazon Coklu Arama
 
     Given kullanici amazon sayfasina gider

@@ -1,5 +1,5 @@
 Feature: US1008_Koala Resort Negative Login
-
+  @rapor2
 Scenario: TC12 kullanici gecersiz bilgilerle giris yapamaz
 
 

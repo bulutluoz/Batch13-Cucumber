@@ -1,0 +1,296 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "sayfayi acma",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11369000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciAmazonSayfasinaGider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:48:25.889Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "TC02_IPhone arama testi",
+        "description": "",
+        "id": "us1002-amazon-background-kullanma;tc02-iphone-arama-testi",
+        "after": [
+          {
+            "result": {
+              "duration": 1048000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4691000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "iPhone icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.i_phone_icin_arama_yapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 560000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sonuclarin iPhone icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_iPhone_icerdigini_test_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor4"
+          },
+          {
+            "name": "@ali"
+          },
+          {
+            "name": "@veli"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "sayfayi acma",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8098000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciAmazonSayfasinaGider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:48:43.618Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "TC03_Tea pot arama testi",
+        "description": "",
+        "id": "us1002-amazon-background-kullanma;tc03-tea-pot-arama-testi",
+        "after": [
+          {
+            "result": {
+              "duration": 1347000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5506000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "tea pot icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.tea_pot_icin_arama_yapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "sonuclarin tea pot icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_tea_pot_icerdigini_test_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor4"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@miniregression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "sayfayi acma",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7755000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciAmazonSayfasinaGider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:48:58.786Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "TC04_Flower arama testi",
+        "description": "",
+        "id": "us1002-amazon-background-kullanma;tc04-flower-arama-testi",
+        "after": [
+          {
+            "result": {
+              "duration": 2397000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4963000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "flower icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.flower_icin_arama_yapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1262000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "sonuclarin flower icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_flower_icerdigini_test_eder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 357000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor4"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "US1002_Amazon Background Kullanma",
+    "description": "",
+    "id": "us1002-amazon-background-kullanma",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1002_Amazon_Background_Kullanma.feature",
+    "tags": [
+      {
+        "name": "@rapor4",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

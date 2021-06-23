@@ -1,6 +1,6 @@
 Feature: US1007_Koala Resort Positive Login
 
-
+  @rapor2
   Scenario: TC11 kullanici gecerli bilgilerle giris yapar
 
 

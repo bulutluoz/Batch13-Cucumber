@@ -1,4 +1,4 @@
-
+@rapor4
 Feature: US1002_Amazon Background Kullanma
 
   Background: sayfayi acma

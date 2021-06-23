@@ -1,5 +1,5 @@
 Feature: US101_Editor Data Table
-  @dip
+  @rapor2
   Scenario: TC14_Data Table Test
 
     When kullanici "editor.datatables.net" sayfasina gider

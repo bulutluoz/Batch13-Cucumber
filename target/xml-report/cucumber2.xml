@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="50.184">
+<testcase classname="US1002_Amazon Background Kullanma" name="TC02_IPhone arama testi" time="17.709">
+<system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And iPhone icin arama yapar.................................................passed
+Then sonuclarin iPhone icerdigini test eder.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1002_Amazon Background Kullanma" name="TC03_Tea pot arama testi" time="15.16">
+<system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And tea pot icin arama yapar................................................passed
+Then sonuclarin tea pot icerdigini test eder................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1002_Amazon Background Kullanma" name="TC04_Flower arama testi" time="16.738">
+<system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And flower icin arama yapar.................................................passed
+Then sonuclarin flower icerdigini test eder.................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

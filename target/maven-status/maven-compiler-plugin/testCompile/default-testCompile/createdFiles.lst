@@ -1,4 +1,5 @@
 pages\AmazonPage.class
+stepdefinitions\Hooks.class
 stepdefinitions\EditorDataTableStepDefinitions.class
 runners\TestRunner.class
 stepdefinitions\AmazonStepDefinitions.class
