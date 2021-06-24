@@ -10,6 +10,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class YandexStepDefinitions {
+
     YandexPage yandexPage=new YandexPage();
 
     @Given("Kullanici Yandex anasayfaya gider")
@@ -33,5 +34,6 @@ public class YandexStepDefinitions {
     public void yandexde_sonuclarin_tea_pot_icerdigini_test_eder() {
         Assert.assertTrue(Driver.getDriver().getTitle().contains("tea pot"));
     }
+
 
 }

@@ -7,12 +7,10 @@ import utilities.Driver;
 
 public class YandexPage {
 
-    public YandexPage(){
-        PageFactory.initElements(Driver.getDriver(),this);
-    }
+  public YandexPage(){
+      PageFactory.initElements(Driver.getDriver(),this);
+        }
 
     @FindBy(css = "input#text")
     public WebElement AramaKutusu;
-
-
 }

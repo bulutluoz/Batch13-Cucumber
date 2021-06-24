@@ -2,7 +2,7 @@
 Feature: US1003_Yandex Arama
 
   Background: Kullanici Yandex anasayfaya gider
-    Given Kullanici Yandex anasayfaya gider
+    Given
 
     Scenario: TC05_Iphone arama
       When Yandexde iPhone icin arama yapar
