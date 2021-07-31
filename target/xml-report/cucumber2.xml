@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="4.908">
-<testcase classname="Kullanici Koala Resort Hotels veritabanina baglanir" name="TC_21 kullanici veri okur" time="4.398">
-<system-out><![CDATA[Given kullanici Koala Resort Hotels veritabanina baglanir...................passed
-And kullanici "tHOTELROOM" tablosundaki "Price" verilerini alir.............passed
-And kullanici "Price" sutunundaki verileri okur.............................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="4.934">
+<testcase classname="Db With DBUtils" name="Kullanici tHOTEL tablosundan mail fieldini test eder" time="4.384">
+<system-out><![CDATA[Given user DBU Koala Resort Hotels veritabanina baglanir....................passed
+And user DBU "tHOTEL" tablosundaki "EMail" verilerini alir..................passed
+And user DBU "tHOTEL" tablosundaki "EMail" verilerini listeler..............passed
 ]]></system-out>
 </testcase>
 </testsuite>
