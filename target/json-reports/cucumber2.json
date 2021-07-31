@@ -1,0 +1,81 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-31T18:56:04.110Z",
+        "line": 6,
+        "name": "TC_21 kullanici veri okur",
+        "description": "",
+        "id": "kullanici-koala-resort-hotels-veritabanina-baglanir;tc-21-kullanici-veri-okur",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2226000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici Koala Resort Hotels veritabanina baglanir",
+            "match": {
+              "location": "dbStepdefinitions.DbRead.kullanici_koala_resort_hotels_veritabanina_baglanir()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 306000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici \"tHOTELROOM\" tablosundaki \"Price\" verilerini alir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tHOTELROOM\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Price\"",
+                  "offset": 36
+                }
+              ],
+              "location": "dbStepdefinitions.DbRead.kullanici_tablosundaki_verilerini_alir(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1748000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici \"Price\" sutunundaki verileri okur",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 10
+                }
+              ],
+              "location": "dbStepdefinitions.DbRead.kullanici_sutunundaki_verileri_okur(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dbread"
+          }
+        ]
+      }
+    ],
+    "name": "Kullanici Koala Resort Hotels veritabanina baglanir",
+    "description": "",
+    "id": "kullanici-koala-resort-hotels-veritabanina-baglanir",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1013_DbRead.feature",
+    "tags": []
+  }
+]
